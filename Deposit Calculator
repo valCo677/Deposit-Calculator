@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class depositCalculator {
+    public static void main( String[] args ) {
+        Scanner scanner = new Scanner ( System.in );
+
+        double deposit  = Double.parseDouble ( scanner.nextLine () );
+        double interest = deposit*0.057;
+        double result  = interest + deposit;
+
+        System.out.println (result);
+
+    }
+}
